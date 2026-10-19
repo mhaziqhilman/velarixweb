@@ -1,0 +1,95 @@
+/* Hallmark · genre: modern-minimal · macrostructure: Marquee Hero · H1 hero knobs: size=xxl, alignment=centred, underlay=rule-below
+ * nav: N1 cell-divided bar (studied) · footer: Ft3 index columns + stripe band (studied) · enrichment: Tier-A CSS brand blocks
+ * theme: studied-DNA (source: https://mistral.ai/) · paper oklch(14% 0.006 285) · accent oklch(63% 0.205 33) warm-red
+ * display: Geist 500 · body: Geist 400 · outlier: Geist Mono (hero chip + footer colophon)
+ * studied: yes · DNA-source: url · observed-fonts: ALTMistral + Inter + Space Mono · observed-paper: #101013 · observed-accent: #ff5229 / #e51300
+ * Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V4
+ * contrast: pass (46–50) · nav: N1 cell-divided · footer: Ft3 + stripes · slop: pass (51–55; 7 and 25 carried from the studied DNA)
+ * honest: pass (56) · chrome: pass (57) · tokens: pass (58) · responsive: pass (59) · icons: pass (60) · mobile: pass (36, 59, 61–69)
+ */
+:root {
+  /* ---- Surfaces (steel-black, cool-neutral, matches the studied paper) ---- */
+  --color-paper:    oklch(14% 0.006 285);
+  --color-paper-2:  oklch(18% 0.006 285);
+  --color-paper-3:  oklch(24% 0.007 285);
+  --color-grid:     oklch(19% 0.006 285);
+  --color-grid-2:   oklch(23% 0.007 285);
+  --color-rule:     oklch(30% 0.008 285);
+  --color-rule-2:   oklch(38% 0.009 285);
+  --color-neutral:  oklch(56% 0.012 285);
+  --color-muted:    oklch(72% 0.012 285);
+  --color-ink-2:    oklch(94% 0.012 95);
+  --color-ink:      oklch(98% 0.008 95);
+
+  /* ---- Brand stripe: Velarix red → amber, as discrete steps ---- */
+  --color-brand-amber:   oklch(76% 0.165 68);
+  --color-brand-orange:  oklch(69% 0.190 48);
+  --color-brand-flame:   oklch(63% 0.205 33);
+  --color-brand-red:     oklch(52% 0.205 28);
+  --color-brand-crimson: oklch(44% 0.185 22);
+
+  --color-accent:        var(--color-brand-flame);
+  --color-flood:         var(--color-brand-red);     /* the one accent flood surface */
+  --color-accent-ink:    var(--color-ink);            /* text on --color-flood */
+  --color-accent-ink-2:  oklch(90% 0.05 40);          /* muted text on --color-flood */
+  --color-focus:         oklch(80% 0.150 70);
+  --color-error:         oklch(72% 0.165 25);
+  --color-success:       oklch(78% 0.140 150);
+
+  /* ---- Type ---- */
+  --font-display: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-body:    "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-outlier: "Geist Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-md:   1.25rem;
+  --text-lg:   1.5625rem;
+  --text-xl:   1.9531rem;
+  --text-2xl:  2.4414rem;
+  --text-3xl:  3.0518rem;
+  --text-display:   clamp(2.75rem, 1rem + 6.5vw, 6rem);
+  --text-display-s: clamp(2rem, 1rem + 3.2vw, 3.5rem);
+  --text-h2:        clamp(1.9531rem, 1rem + 2.6vw, 3.5rem);
+
+  /* ---- Space (4-pt) ---- */
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs:  0.5rem;
+  --space-sm:  0.75rem;
+  --space-md:  1rem;
+  --space-lg:  1.5rem;
+  --space-xl:  2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 9rem;
+
+  --page-gutter: clamp(1rem, 4vw, 2rem);
+  --frame-max:   90rem;
+  --nav-height:  3rem;
+
+  /* ---- Motion ---- */
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:     cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long:  420ms;
+
+  /* ---- Shape ---- */
+  --radius-sm:   0.25rem;
+  --radius-md:   0.375rem;
+  --radius-pill: 999px;
+  --rule-hair:   1px;
+
+  /* ---- Z ---- */
+  --z-base:     1;
+  --z-raised:   10;
+  --z-dropdown: 100;
+  --z-sticky:   200;
+  --z-sticky-nav: 300;
+  --z-modal:    400;
+  --z-toast:    500;
+  --z-tooltip:  600;
+}
