@@ -4,7 +4,7 @@ export const company = {
   name: 'Velarix Technology',
   legalName: 'Velarix Technology Sdn. Bhd.',
   tagline: 'Digitizing the Future',
-  email: 'velarixtechnology@gmail.com',
+  email: 'velarix.technology@gmail.com',
   location: 'Klang Valley, Malaysia',
   founded: 'February 2025',
   siteUrl: 'https://velarixtechnology.com',

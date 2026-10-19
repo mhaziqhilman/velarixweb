@@ -18,7 +18,7 @@ Note: the contact form only delivers on the Netlify deployment. Locally it shows
 1. Push this folder to a Git repository (GitHub, GitLab or Bitbucket) and import it in Netlify as a new site. `netlify.toml` already sets the build command (`npm run build`) and publish folder (`dist`).
 2. **Enable form detection** before the first deploy: Site configuration → Forms → *Enable form detection*. Netlify finds the hidden `contact` form in `index.html` during the build.
 3. Deploy. Submissions appear under the site's **Forms** tab.
-4. **Email notifications**: Site configuration → Notifications → Form submission notifications → *Add notification* → Email → `velarixtechnology@gmail.com`. Without this step submissions stay in the dashboard only.
+4. **Email notifications**: Site configuration → Notifications → Form submission notifications → *Add notification* → Email → `velarix.technology@gmail.com`. Without this step submissions stay in the dashboard only.
 5. Send one test message from the live site and confirm it arrives in Gmail (check Spam the first time).
 
 ## Point velarixtechnology.com at Netlify
