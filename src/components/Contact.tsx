@@ -110,6 +110,10 @@ export function Contact() {
               <dt>Company</dt>
               <dd>{company.legalName}</dd>
             </div>
+            <div>
+              <dt>SSM registration no.</dt>
+              <dd>{company.registration}</dd>
+            </div>
           </dl>
         </div>
 

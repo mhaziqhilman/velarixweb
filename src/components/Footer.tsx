@@ -47,7 +47,7 @@ export function Footer() {
         </a>
         <p className="footer__tagline">{company.tagline}.</p>
         <p className="footer__meta">
-          {company.legalName} © {year}
+          {company.legalName} ({company.registration}) © {year}
         </p>
       </div>
 

@@ -3,6 +3,7 @@
 export const company = {
   name: 'Velarix Technology',
   legalName: 'Velarix Technology Sdn. Bhd.',
+  registration: '1606168-X',
   tagline: 'Digitizing the Future',
   email: 'velarix.technology@gmail.com',
   location: 'Klang Valley, Malaysia',
